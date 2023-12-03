@@ -1,0 +1,25 @@
+{
+    "name": "Default",
+    "target": "linux/amd64",
+    "http": "0.0.0.0:56741",
+    "workdir": "/home/lemonshushu/syzkaller/workdir_default",
+    "kernel_obj": "/home/lemonshushu/linux-6.6.1",
+    "image": "/home/lemonshushu/linux-6.6.1/image/bullseye.img",
+    "sshkey": "/home/lemonshushu/linux-6.6.1/image/bullseye.id_rsa",
+    "syzkaller": "/home/lemonshushu/syzkaller",
+    "procs": 8,
+    "cover_filter": {
+        "files": [
+            "^net/ipv4/",
+            "^net/core/",
+            "^net/socket.c$"
+        ]
+    },
+    "type": "qemu",
+    "vm": {
+        "count": 3,
+        "kernel": "/home/lemonshushu/linux-6.6.1/arch/x86/boot/bzImage",
+        "cpu": 2,
+        "mem": 2048
+    }
+}
