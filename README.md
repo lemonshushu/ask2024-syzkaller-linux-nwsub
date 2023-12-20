@@ -39,3 +39,7 @@ Fuzzing에 실제로 사용한 configuration 파일들. 각각에 대한 간략�
 #### `draw_plots_aggregated.py`
 - Subsystem별 합계 coverage의 변화 양상을 하나의 그래프에 나타내어 파일로 output함.
 - 생성된 plot들은 `plots/*/coverage_subsys.png`로 볼 수 있음
+
+### `bachelor_paper/`
+
+학사논문 관련 자료들을 포함함 (참고용)
