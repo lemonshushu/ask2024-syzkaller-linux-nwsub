@@ -1,4 +1,5 @@
 # Data Repository for Fuzzing Research
+한국정보처리학회 ASK 2024 논문 "Syzkaller를 이용한 리눅스 커널 네트워크 서브시스템 퍼징에 관한 연구"의 구체적인 실험 설정 및 실험에 사용한 코드, 그리고 실험 결과의 일부를 포함하는 저장소
 ## Paper Information
 To be added
 ## Disclaimer
